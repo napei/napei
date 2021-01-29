@@ -1,5 +1,7 @@
 ### Hi there 👋 I'm Nathaniel and I do things (sometimes)
 
+Check out my personal website <https://nathaniel.peiffer.com.au>
+
 Currently studying `Bachelor of Engineering (Robotics & Mechatronics)[Hons] & Bachelor of Computer Science (Cybersecurity)` at Swinburne University, Australia.
 
 ![stats](https://github-readme-stats.vercel.app/api?username=napei&show_icons=true&theme=algolia&count_private=true)

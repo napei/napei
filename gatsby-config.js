@@ -1,17 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'napei',
+    title: 'Nathaniel Peiffer',
+    siteUrl: 'https://nathaniel.peiffer.com.au',
   },
   plugins: [
     'gatsby-plugin-postcss',
-    {
-      resolve: 'gatsby-plugin-purgecss',
-      options: {
-        printRejected: true,
-        develop: false,
-        tailwind: true,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-purgecss',
+    //   options: {
+    //     printRejected: true,
+    //     develop: false,
+    //     tailwind: true,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
@@ -35,6 +36,12 @@ module.exports = {
         path: './src/images/',
       },
       __key: 'images',
+    },
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve('./src/components/layout.jsx'),
+      },
     },
   ],
 };
