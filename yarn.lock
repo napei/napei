@@ -1284,7 +1284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.7, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4":
   version: 7.12.5
   resolution: "@babel/runtime@npm:7.12.5"
   dependencies:
@@ -2175,19 +2175,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@loadable/component@npm:^5.14.1":
-  version: 5.14.1
-  resolution: "@loadable/component@npm:5.14.1"
-  dependencies:
-    "@babel/runtime": ^7.7.7
-    hoist-non-react-statics: ^3.3.1
-    react-is: ^16.12.0
-  peerDependencies:
-    react: ">=16.3.0"
-  checksum: 073b1752c1a3dedf039364f05acfd2fbc4371d8d15ddb129fe761cf126a10087b5a399f5d223cba715c8298812c35df8bfe8573f9c461f465ae5e65f944e7aa3
-  languageName: node
-  linkType: hard
-
 "@mdx-js/util@npm:^2.0.0-next.8":
   version: 2.0.0-next.8
   resolution: "@mdx-js/util@npm:2.0.0-next.8"
@@ -2719,15 +2706,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/loadable__component@npm:^5":
-  version: 5.13.1
-  resolution: "@types/loadable__component@npm:5.13.1"
-  dependencies:
-    "@types/react": "*"
-  checksum: 5c7c6e53d3af4e13bd26cd7972d839a26ee7e3e6f73b5108868e0950978ce88a878c7ea37bfa0d77c3dab134b98545e051dd2753acde141830bc10924a5127aa
-  languageName: node
-  linkType: hard
-
 "@types/lodash@npm:^4.14.92":
   version: 4.14.168
   resolution: "@types/lodash@npm:4.14.168"
@@ -2826,7 +2804,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*, @types/prop-types@npm:^15":
+"@types/prop-types@npm:*, @types/prop-types@npm:15":
   version: 15.7.3
   resolution: "@types/prop-types@npm:15.7.3"
   checksum: bd0eab69d5120ad3784d0c9985f902653d5924707a7f2b3702a330e762dfd61b6494954cb54ad0c52b918ffd6f1e7e27c9270e4442bc15250de348596f2f60cb
@@ -2837,6 +2815,13 @@ __metadata:
   version: 1.5.4
   resolution: "@types/q@npm:1.5.4"
   checksum: 1a19cf2c41648b862bd25a4c26ba33dc7206f14fcf50c5b78031b59090d21176e703cd10aff8af409eafbefcebb288607d30af765ee3859637cf3fae6e875648
+  languageName: node
+  linkType: hard
+
+"@types/raf@npm:^3":
+  version: 3.4.0
+  resolution: "@types/raf@npm:3.4.0"
+  checksum: a0e2217337b0137fd68e8d7072b84ffcb3f54dbbe7a6d261b6be97b24b7fe76e41a7ed668f424444acb6de73b17e3315632e9e9239d37d25a3a48ea43a03579e
   languageName: node
   linkType: hard
 
@@ -3935,12 +3920,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.2.3":
-  version: 10.2.3
-  resolution: "autoprefixer@npm:10.2.3"
+"autoprefixer@npm:10.2.4":
+  version: 10.2.4
+  resolution: "autoprefixer@npm:10.2.4"
   dependencies:
     browserslist: ^4.16.1
-    caniuse-lite: ^1.0.30001178
+    caniuse-lite: ^1.0.30001181
     colorette: ^1.2.1
     fraction.js: ^4.0.13
     normalize-range: ^0.1.2
@@ -3949,7 +3934,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 18c9075d7af705de1de72108afe2b3bac454dfb97988a576a6f67b7a61a3dcc31e1da9c10911c34b536151ece291d117698549e838f690ba6b5de9a89d782a65
+  checksum: c07fb325ee63e535a2246be4ac0d6afc9e9e43e66386e39c495015bdc8d83547ffdc0797be22d88781d044d3eecbbcb13d8a550ef94eb684091b24a05eb0c83e
   languageName: node
   linkType: hard
 
@@ -4027,7 +4012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-eslint@npm:^10.1.0":
+"babel-eslint@npm:10.1.0, babel-eslint@npm:^10.1.0":
   version: 10.1.0
   resolution: "babel-eslint@npm:10.1.0"
   dependencies:
@@ -5047,10 +5032,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30000981, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001173, caniuse-lite@npm:^1.0.30001178":
-  version: 1.0.30001180
-  resolution: "caniuse-lite@npm:1.0.30001180"
-  checksum: 2381f138385e1a1c02e9fca6aea6edc948c64a2ef520c41458e088a40fc2114f318235ae61e930e485c185281d081d5898883dda966d1b861afb455f7d9f6d16
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30000981, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001173, caniuse-lite@npm:^1.0.30001181":
+  version: 1.0.30001181
+  resolution: "caniuse-lite@npm:1.0.30001181"
+  checksum: 8428500f49de802e4aa18baba05d2408840a2cdcbe595335bfafc834c9fb759dfc2e3ba9ff552efc74d862c5d1a62c243f20641a06a8eedc3d083a29dd5c7e0e
   languageName: node
   linkType: hard
 
@@ -5809,15 +5794,15 @@ __metadata:
   linkType: hard
 
 "contentful-management@npm:^7.5.1":
-  version: 7.5.3
-  resolution: "contentful-management@npm:7.5.3"
+  version: 7.5.4
+  resolution: "contentful-management@npm:7.5.4"
   dependencies:
     axios: ^0.21.0
     contentful-sdk-core: ^6.7.0
     fast-copy: ^2.1.0
     lodash.isplainobject: ^4.0.6
     type-fest: 0.20.2
-  checksum: afcccc54c7e24b7e422c312676f36df168b214f2fbf49bb6c3700762f47ef50299a43a9b60f9a7abc128e11b5bfa4a8a3f3d3c9d89399b24582cb49335a61feb
+  checksum: c67603f33862561bf1dc2a7681e6649e13cdd1f0b784bf3cf03e4797cac840545fff804867dc3493449fb72ace49e272424ea640194431ac2ec9515f705f8776
   languageName: node
   linkType: hard
 
@@ -7292,9 +7277,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.634":
-  version: 1.3.648
-  resolution: "electron-to-chromium@npm:1.3.648"
-  checksum: bd4f60eeed7701c8aa55466d024f487d173ca2bbe5c0874ee05f3cb49f2d7822598e454a3b74a3b562919518129fcbd1f6e0d57e4edc503ea458788d4b2081a6
+  version: 1.3.649
+  resolution: "electron-to-chromium@npm:1.3.649"
+  checksum: e92a5432d033804319fe93f01de5533bdf05142ccf291b89843c33cd436e994553783007cc4405bac1fe4ee39000e549c857828cb66c37dc1a4e7addb324641d
   languageName: node
   linkType: hard
 
@@ -7337,9 +7322,9 @@ __metadata:
   linkType: hard
 
 "emoji-regex@npm:^9.0.0":
-  version: 9.2.0
-  resolution: "emoji-regex@npm:9.2.0"
-  checksum: 0ccee5f5e8ffcfe084e1a7499398b1ddb3b2f0e395a9bd5711ff136fc4606f24ca8bad930d60f5a12d4b2ce38dbb2b8cd0fd3e20a0d291770123b1e12bba9f04
+  version: 9.2.1
+  resolution: "emoji-regex@npm:9.2.1"
+  checksum: d6b126ad5756ded4f54e7dbb859f6c352318c7a7b83bee9161965c8d9ae7fd96cfab7fc381f27f236efecc1bd9573bad0d1e0428444dae1e075dc7cc66507df1
   languageName: node
   linkType: hard
 
@@ -8899,7 +8884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firebase-tools@npm:^9.2.2":
+"firebase-tools@npm:9.2.2":
   version: 9.2.2
   resolution: "firebase-tools@npm:9.2.2"
   dependencies:
@@ -9442,7 +9427,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-layout@npm:^1.9.0":
+"gatsby-plugin-layout@npm:1.9.0":
   version: 1.9.0
   resolution: "gatsby-plugin-layout@npm:1.9.0"
   dependencies:
@@ -9522,9 +9507,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sharp@npm:2.13.3":
-  version: 2.13.3
-  resolution: "gatsby-plugin-sharp@npm:2.13.3"
+"gatsby-plugin-sharp@npm:2.13.4":
+  version: 2.13.4
+  resolution: "gatsby-plugin-sharp@npm:2.13.4"
   dependencies:
     "@babel/runtime": ^7.12.5
     async: ^3.2.0
@@ -9547,7 +9532,7 @@ fsevents@~2.3.1:
     uuid: 3.4.0
   peerDependencies:
     gatsby: ">2.0.15"
-  checksum: 6bf26a97cf3cbb13772d470cad1427705da56d3662073b697b52330a651bbc6903413aa491f9532019bdd21e0b41899e88e1724c78a97c9aa0c2f3cd6fa4cab2
+  checksum: 922992bffee5499df18b4b8ec1fd27cc3b05a23563407f5a4017561270f6861e1d8d57125ca8849b0c006c974359d218ac644f7d6f0d528e48847dae8c008288
   languageName: node
   linkType: hard
 
@@ -10816,7 +10801,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^3.3.0, hoist-non-react-statics@npm:^3.3.1":
+"hoist-non-react-statics@npm:^3.3.0":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
   dependencies:
@@ -14247,10 +14232,10 @@ fsevents@~2.3.1:
   resolution: "napei@workspace:."
   dependencies:
     "@fontsource/inter": 4.1.0
-    "@loadable/component": ^5.14.1
-    "@types/loadable__component": ^5
-    "@types/prop-types": ^15
-    autoprefixer: ^10.2.3
+    "@types/prop-types": 15
+    "@types/raf": ^3
+    autoprefixer: 10.2.4
+    babel-eslint: 10.1.0
     bootstrap-icons: 1.3.0
     eslint: 7.18.0
     eslint-config-airbnb: 18.2.1
@@ -14259,28 +14244,29 @@ fsevents@~2.3.1:
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-react: 7.22.0
     eslint-plugin-react-hooks: 4.2.0
-    firebase-tools: ^9.2.2
+    firebase-tools: 9.2.2
     gatsby: 2.31.1
     gatsby-cli: 2.18.0
     gatsby-image: 2.10.0
     gatsby-plugin-google-gtag: 2.7.0
-    gatsby-plugin-layout: ^1.9.0
+    gatsby-plugin-layout: 1.9.0
     gatsby-plugin-manifest: 2.11.0
     gatsby-plugin-postcss: 3.6.0
     gatsby-plugin-purgecss: 5.0.0
     gatsby-plugin-react-helmet: 3.9.0
-    gatsby-plugin-sharp: 2.13.3
+    gatsby-plugin-sharp: 2.13.4
     gatsby-plugin-sitemap: 2.11.0
     gatsby-source-filesystem: 2.10.0
     gatsby-transformer-sharp: 2.11.0
     postcss: 8.2.4
-    postcss-import: ^14.0.0
-    precss: ^4.0.0
-    prop-types: ^15.7.2
+    postcss-import: 14.0.0
+    precss: 4.0.0
+    prop-types: 15.7.2
+    raf: ^3.4.1
     react: 17.0.1
     react-dom: 17.0.1
     react-helmet: 6.1.0
-    react-starfield-animation: 1.0.1
+    react-sizeme: 2.6.12
     stylelint: 13.9.0
     stylelint-config-prettier: 8.0.2
     stylelint-config-recommended: 3.0.0
@@ -14489,9 +14475,9 @@ fsevents@~2.3.1:
   linkType: hard
 
 "node-object-hash@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "node-object-hash@npm:2.1.0"
-  checksum: 176d2d5efd628ec619a0ca00cf2383f8a124583ab689c47ffe26aa930a45b7bade5aa46a0045f9eb1c28bb6bfabfc70d36b26f3adbaa62535a260f966398cb20
+  version: 2.1.2
+  resolution: "node-object-hash@npm:2.1.2"
+  checksum: 6f1bb85b1f6ef64f23567938284b5134aa3d376589acd4b46921bb11942be0bf3d244648c7d4b5646317709626a0345896fb8f31e27ea0f41b839fb437e89540
   languageName: node
   linkType: hard
 
@@ -16174,7 +16160,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"postcss-import@npm:^14.0.0":
+"postcss-import@npm:14.0.0":
   version: 14.0.0
   resolution: "postcss-import@npm:14.0.0"
   dependencies:
@@ -16915,7 +16901,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"precss@npm:^4.0.0":
+"precss@npm:4.0.0":
   version: 4.0.0
   resolution: "precss@npm:4.0.0"
   dependencies:
@@ -17066,7 +17052,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.1, prop-types@npm:^15.7.2":
+"prop-types@npm:15.7.2, prop-types@npm:^15.6.1, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -17371,7 +17357,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"raf@npm:^3.4.0":
+"raf@npm:^3.4.1":
   version: 3.4.1
   resolution: "raf@npm:3.4.1"
   dependencies:
@@ -17582,7 +17568,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-sizeme@npm:^2.4.2":
+"react-sizeme@npm:2.6.12":
   version: 2.6.12
   resolution: "react-sizeme@npm:2.6.12"
   dependencies:
@@ -17594,20 +17580,6 @@ fsevents@~2.3.1:
     react: ^0.14.0 || ^15.0.0-0 || ^16.0.0
     react-dom: ^0.14.0 || ^15.0.0-0 || ^16.0.0
   checksum: 1e46afd8851bb855cd4b533dbbacc5b24c3b4b174cba78df0cc0b2567ed38e23e85254aa7c205d1f1dea3002bf17d70555404aea8011c200bab3abfeb8cc32af
-  languageName: node
-  linkType: hard
-
-"react-starfield-animation@npm:1.0.1":
-  version: 1.0.1
-  resolution: "react-starfield-animation@npm:1.0.1"
-  dependencies:
-    raf: ^3.4.0
-    react-sizeme: ^2.4.2
-  peerDependencies:
-    prop-types: ^15.5.4
-    react: ^15.0.0 || ^16.0.0
-    react-dom: ^15.0.0 || ^16.0.0
-  checksum: d28879a90292bb0d4d72dc6c09ee0725443bb78468de3e733b87d246a5e80ede75563b08f61efe0a05187036cff4a708b60b49a9bbcfe917460204ee3119c4e2
   languageName: node
   linkType: hard
 

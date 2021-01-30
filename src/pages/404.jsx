@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import Stars from '../components/stars';
+import Starfield from '../components/starfield';
+import SEO from '../components/seo';
 
 export default function NotFound() {
   return (
     <>
-      <Stars />
+      <SEO title="404" description="Page not found" />
+      <Starfield />
       <div className="flex flex-col gap-6 z-10 text-center">
         <h1 className="text-9xl font-bold">404</h1>
         <Link to="/" className="font-semibold text-xl rounded-md bg-green-700 hover:bg-green-500 cursor-pointer align-middle py-2 transition-colors">

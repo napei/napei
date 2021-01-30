@@ -1,14 +1,10 @@
 import * as React from 'react';
-import Stars from '../components/stars';
+import Starfield from '../components/starfield';
+import SEO from '../components/seo';
 
 export function IconButton({ link, icon }) {
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="cursor-pointer hover:text-green-500 transition transform hover:scale-150 ease-in-out"
-    >
+    <a href={link} target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-green-500 transition transform hover:scale-150 ease-in-out">
       {React.cloneElement(icon, { className: 'h-8 w-8' })}
     </a>
   );
@@ -36,8 +32,9 @@ export default function Index() {
 
   return (
     <>
+      <SEO title="Home" />
+      <Starfield />
       <div className="flex flex-col gap-6 z-10">
-        <Stars />
         <h1 className="text-4xl md:text-6xl font-bold">Nathaniel Peiffer</h1>
         <div className="flex gap-4 flex-wrap items-center justify-center">{buttons}</div>
       </div>
